@@ -2,17 +2,21 @@
 
 ---
 
-### Category Name 1 
+### Projects 
 
-[Project #1 Title](/sample_page)
+[Secure Document Storage Platform using InterPlanetary File System](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
----
-[Project 2 Title](/pdf/sample_presentation.pdf)
+[Complete Balancing Algorithm using Rotations](/pdf/sample_presentation.pdf)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
----
-[Project 3 Title](http://example.com/)
+[Bad Roads – A Social Media Platform](http://example.com/)
+<img src="images/dummy_thumbnail.jpg?raw=true"/>
+
+[Inter-Modal Transportation Platform](http://example.com/)
+<img src="images/dummy_thumbnail.jpg?raw=true"/>
+
+[Bitcoin Based Land Registry System](http://example.com/)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
