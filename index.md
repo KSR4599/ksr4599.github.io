@@ -5,6 +5,8 @@
 ### Projects 
 
 [Secure Document Storage Platform using InterPlanetary File System](/sample_page)
+A full-stack application on top of MERN (MongoDB, Express, React, Node) stack technology that uses IPFS to store confidential documents in
+an encrypted fashion. This is an incentivized Ethereum based platform that uses eth as a token to make use of the storage benefits.
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 [Complete Balancing Algorithm using Rotations](/pdf/sample_presentation.pdf)
