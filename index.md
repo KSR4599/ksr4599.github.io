@@ -1,4 +1,4 @@
-## Job Description
+## Job History
 ### Graduate Teaching Assistant at George Mason University 01/2021 -- Present
 <img src="images/gta.gif?raw=true"/>
 Graduate Teaching Assistant in the Department of Information Sciences and Technology, assisting more than 100 students for a Python-based advanced course.
@@ -63,17 +63,3 @@ Created multiple full stack projects by upgrading technologies each time, implem
 
 
 ---
-
-### Category Name 2
-
-- [Project 1 Title](http://example.com/)
-
-
----
-
-
-
-
----
-<p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
-<!-- Remove above link if you don't want to attibute -->
