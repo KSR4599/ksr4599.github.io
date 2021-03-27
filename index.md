@@ -1,6 +1,4 @@
-## Portfolio
 
----
 ## Skills
 ### Programming/ Scripting/ Markup Languages:
 <img src="images/psm1.png?raw=true"/>
