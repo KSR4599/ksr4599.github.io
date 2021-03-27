@@ -3,7 +3,7 @@
 ---
 ## Skills
 ### Programming/ Scripting/ Markup Languages:
-<img src="images/psm.png=100x20?raw=true"/>
+<img src="images/psm.png?raw=true"/>
 
 ---
 ### Databases/ Cloud Services:
