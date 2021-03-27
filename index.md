@@ -1,4 +1,15 @@
+## Job Description
+### Graduate Teaching Assistant
+Graduate Teaching Assistant in the Department of Information Sciences and Technology, assisting more than 100 students for a Python-based advanced course.
 
+### Graduate Research Assistant
+ Full-stack development on The Helio-physics Application Programmer's Interface data access specification (Backed by NASA), which is a
+ RESTful API and streaming format specification for delivering digital time series data
+### Full Stack Developer
+ Full-stack developer involved in developing applications using Blockchain technology on the platforms of Bitcoin, Ethereum and Hyperledger using MEAN and MERN stacks.
+
+
+---
 ## Skills
 ### Programming/ Scripting/ Markup Languages:
 <img src="images/psm1.png?raw=true"/>
