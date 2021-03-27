@@ -1,6 +1,22 @@
 ## Portfolio
 
 ---
+## Skills
+### Programming/ Scripting/ Markup Languages:
+<img src="images/psm.png?raw=true"/>
+
+---
+### Databases/ Cloud Services:
+<img src="images/db.png?raw=true"/>
+
+---
+### Frameworks/Platforms:
+<img src="images/fw.png?raw=true"/>
+
+---
+### Operating Systems:
+<img src="images/os.png?raw=true"/>
+---
 
 ### Projects 
 
