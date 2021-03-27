@@ -3,19 +3,23 @@
 ---
 ## Skills
 ### Programming/ Scripting/ Markup Languages:
-<img src="images/psm.png?raw=true"/>
+<img src="images/psm1.png?raw=true"/>
+<img src="images/psm2.png?raw=true"/>
 
 ---
 ### Databases/ Cloud Services:
-<img src="images/db.png?raw=true"/>
+<img src="images/db1.png?raw=true"/>
+<img src="images/db2.png?raw=true"/>
 
 ---
 ### Frameworks/Platforms:
-<img src="images/fw.png?raw=true"/>
+<img src="images/fw1.png?raw=true"/>
+<img src="images/fw2.png?raw=true"/>
 
 ---
 ### Operating Systems:
-<img src="images/os.png?raw=true"/>
+<img src="images/os1.png?raw=true"/>
+<img src="images/os2.png?raw=true"/>
 ---
 
 ### Projects 
