@@ -1,4 +1,3 @@
-## Job History
 ### Software Engineering Intern at Walmart Global Tech 07/2021 -- Present
 <img src="gtp.gif?raw=true"/>
 Software Engineering Intern for GraphQL gateway solution based of Apollo GraphQL server for enterprise service registry using Java, Spring, Elastic Search, GraphQL and Apollo Foundation
