@@ -10,7 +10,7 @@ Full-stack developer in NASA Data-System’s Project called The Helio-Physics Ap
 Developed a Least Common Denominator API that provides cross-disciplinary access to data to enable correlative and collaborative research across the mission boundaries for the present and past NASA missions.
 
 
-### Graduate Teaching Assistant at George Mason University 01/2021 -- Present
+### Graduate Teaching Assistant at George Mason University 01/2021 -- 05/2021
 <img src="images/gta.gif?raw=true"/>
 Graduate Teaching Assistant in the Department of Information Sciences and Technology, assisting more than 100 students for a Python-based advanced course.
  
