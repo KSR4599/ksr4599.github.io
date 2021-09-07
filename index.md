@@ -1,15 +1,18 @@
-### Software Engineering Intern at Walmart Global Tech 07/2021 -- Present
+### Software Engineering Intern at Walmart Global Tech 06/2021 -- 08/2021
 <img src="gtp.gif?raw=true"/>
 Software Engineering Intern for GraphQL gateway solution based of Apollo GraphQL server for enterprise service registry using Java, Spring, Elastic Search, GraphQL and Apollo Foundation
+Designed a View-Model Service to function as a mini-Orchestrator that interacts with Personalization Service, Content
+Management System and Search Backend as part of Project-GLASS which serves 10% of walmart.com’s current traffic.
+
+### Full-Stack Developer at NASA - George Mason University 08/2020 -- Present
+<img src="images/gra.gif?raw=true"/>
+Full-stack developer in NASA Data-System’s Project called The Helio-Physics Application Programmer Interface (HAPI) data access specification, a RESTful API and streaming format specification for delivering digital time-series data.
+Developed a Least Common Denominator API that provides cross-disciplinary access to data to enable correlative and collaborative research across the mission boundaries for the present and past NASA missions.
+
 
 ### Graduate Teaching Assistant at George Mason University 01/2021 -- Present
 <img src="images/gta.gif?raw=true"/>
 Graduate Teaching Assistant in the Department of Information Sciences and Technology, assisting more than 100 students for a Python-based advanced course.
-
-### Graduate Research Assistant at George Mason University 08/2020 -- 01/2021
-<img src="images/gra.gif?raw=true"/>
- Full-stack development on The Helio-physics Application Programmer's Interface data access specification (Backed by NASA), which is a
- RESTful API and streaming format specification for delivering digital time series data
  
 ### Full Stack Developer at Tech Mahindra Pvt Ltd 11/2018 -- 11/2019
 <img src="images/fsd.gif?raw=true"/>
