@@ -1,7 +1,11 @@
-## Srikar Reddy Karemma : Software Engineering Intern at Walmart Global Tech
+## Srikar Reddy Karemma : Software Engineer III at Walmart Global Tech
 
 ## Job History
-### Software Engineering Intern at Walmart Global Tech 07/2021 -- Present
+### Software Engineer III at Walmart Global Tech 02/2022 -- Present
+<img src="images/iam_sso.gif?raw=true"/>
+Software Engineer for Walmart.com’s highly critical Tier-0 Identity Access Management (IAM) platform managing SSO and OAuth services using Network Protocols & Security, JVM internals, Garbage Collection Algorithms, Failure Detection Algorithms, Application Failover Strategies, Internals of Linux / Unix Virtualization and Indexing schemes etc. which can be used as basic building blocks to power Walmart’s eCommerce sites.
+
+### Software Engineering Intern at Walmart Global Tech 07/2021 -- 09/2021
 <img src="gtp.gif?raw=true"/>
 Software Engineering Intern for GraphQL gateway solution based of Apollo GraphQL server for enterprise service registry using Java, Spring, Elastic Search, GraphQL and Apollo Foundation
 
