@@ -1,5 +1,5 @@
 ### Software Engineer III at Walmart Global Tech 02/2022 -- Present
-<img src="iam_sso.gif?raw=true"/>
+<img src="images/iam_sso.gif?raw=true"/>
 Software Engineer for Walmart.com’s highly critical Tier-0 Identity Access Management (IAM) platform managing SSO and OAuth services using Network Protocols & Security, JVM internals, Garbage Collection Algorithms, Failure Detection Algorithms, Application Failover Strategies, Internals of Linux / Unix Virtualization and Indexing schemes etc. which can be used as basic building blocks to power Walmart’s eCommerce sites.
 
 ### Software Engineering Intern at Walmart Global Tech 06/2021 -- 08/2021
