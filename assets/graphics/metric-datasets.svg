@@ -1,0 +1,9 @@
+<svg width="420" height="120" viewBox="0 0 420 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="420" height="120" rx="14" fill="#0E1A30"/>
+  <rect x="28" y="34" width="106" height="54" rx="10" fill="#122644" stroke="#2DD4BF"/>
+  <rect x="158" y="34" width="106" height="54" rx="10" fill="#122644" stroke="#2DD4BF"/>
+  <rect x="288" y="34" width="106" height="54" rx="10" fill="#122644" stroke="#2DD4BF"/>
+  <path d="M134 61H158" stroke="#FBBF24" stroke-width="4"/>
+  <path d="M264 61H288" stroke="#FBBF24" stroke-width="4"/>
+  <text x="22" y="28" fill="#D8F7FF" font-size="18" font-family="Arial">Dataset Federation</text>
+</svg>

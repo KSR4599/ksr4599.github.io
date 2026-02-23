@@ -1,0 +1,6 @@
+<svg width="420" height="120" viewBox="0 0 420 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="420" height="120" rx="14" fill="#0E1A30"/>
+  <path d="M24 80H84L106 42L140 96L178 56L210 72L248 34L286 70L318 58L360 64" stroke="#2DD4BF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="248" cy="34" r="7" fill="#FBBF24"/>
+  <text x="22" y="28" fill="#D8F7FF" font-size="18" font-family="Arial">Availability Trend</text>
+</svg>

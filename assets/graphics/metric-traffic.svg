@@ -1,0 +1,10 @@
+<svg width="420" height="120" viewBox="0 0 420 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="420" height="120" rx="14" fill="#0E1A30"/>
+  <rect x="30" y="62" width="38" height="36" rx="6" fill="#2DD4BF"/>
+  <rect x="86" y="48" width="38" height="50" rx="6" fill="#2DD4BF"/>
+  <rect x="142" y="38" width="38" height="60" rx="6" fill="#2DD4BF"/>
+  <rect x="198" y="28" width="38" height="70" rx="6" fill="#FBBF24"/>
+  <rect x="254" y="44" width="38" height="54" rx="6" fill="#2DD4BF"/>
+  <rect x="310" y="34" width="38" height="64" rx="6" fill="#2DD4BF"/>
+  <text x="22" y="28" fill="#D8F7FF" font-size="18" font-family="Arial">Request Volume</text>
+</svg>

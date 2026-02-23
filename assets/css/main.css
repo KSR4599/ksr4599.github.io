@@ -274,6 +274,15 @@ h1 {
   padding: 1rem;
 }
 
+.metric-art {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid var(--surface-border);
+  margin-bottom: 0.72rem;
+  background: #0b1326;
+}
+
 .impact h2 {
   font-size: 1.6rem;
   color: var(--accent-2);
