@@ -1,0 +1,15 @@
+<svg width="640" height="360" viewBox="0 0 640 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="640" height="360" rx="24" fill="#0A1020"/>
+  <rect x="40" y="44" width="560" height="78" rx="14" fill="#12213F" stroke="#2DD4BF"/>
+  <rect x="72" y="156" width="230" height="150" rx="14" fill="#162A4B" stroke="#60A5FA"/>
+  <rect x="338" y="156" width="230" height="150" rx="14" fill="#162A4B" stroke="#60A5FA"/>
+  <circle cx="153" cy="232" r="18" fill="#5EEAD4"/>
+  <circle cx="210" cy="232" r="18" fill="#5EEAD4"/>
+  <circle cx="267" cy="232" r="18" fill="#5EEAD4"/>
+  <circle cx="419" cy="232" r="18" fill="#FBBF24"/>
+  <circle cx="476" cy="232" r="18" fill="#FBBF24"/>
+  <circle cx="533" cy="232" r="18" fill="#FBBF24"/>
+  <text x="112" y="94" fill="#E0F2FE" font-size="28" font-family="Arial">AWS · GCP · Azure · AKS</text>
+  <text x="122" y="287" fill="#CFE8FF" font-size="24" font-family="Arial">Kubernetes</text>
+  <text x="402" y="287" fill="#FDE68A" font-size="24" font-family="Arial">Data Stores</text>
+</svg>

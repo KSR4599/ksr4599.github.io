@@ -125,7 +125,7 @@ nav a:hover {
 }
 
 .container {
-  max-width: 1100px;
+  max-width: 1160px;
   margin: 0 auto;
   padding: 2.4rem 1rem 5rem;
 }
@@ -285,37 +285,6 @@ h1 {
   font-size: 0.92rem;
 }
 
-.skills-spotlight {
-  margin-top: 1.7rem;
-}
-
-.spotlight-grid {
-  display: grid;
-  gap: 0.8rem;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-}
-
-.spotlight-card {
-  border: 1px solid var(--surface-border);
-  border-radius: 14px;
-  padding: 0.95rem;
-  background: linear-gradient(170deg, rgba(8, 14, 26, 0.78), rgba(8, 14, 26, 0.54));
-}
-
-:root[data-theme="light"] .spotlight-card {
-  background: linear-gradient(170deg, rgba(255, 255, 255, 0.86), rgba(255, 255, 255, 0.72));
-}
-
-.spotlight-card h3 {
-  font-size: 0.96rem;
-}
-
-.spotlight-card p {
-  margin-top: 0.4rem;
-  color: var(--muted);
-  font-size: 0.9rem;
-}
-
 .section {
   margin-top: 2rem;
 }
@@ -345,6 +314,21 @@ h1 {
 
 .role-card + .role-card {
   margin-top: 1rem;
+}
+
+.role-card {
+  position: relative;
+  padding-left: 1.35rem;
+}
+
+.role-card::before {
+  content: "";
+  position: absolute;
+  left: 0.62rem;
+  top: 1.15rem;
+  bottom: 1.15rem;
+  width: 2px;
+  background: linear-gradient(180deg, var(--accent), rgba(94, 234, 212, 0.1));
 }
 
 .role-topline,
@@ -419,6 +403,33 @@ li + li {
   font-style: italic;
 }
 
+.skills-visual-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.skill-visual-card {
+  padding: 0.9rem;
+}
+
+.skill-visual-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  border: 1px solid var(--surface-border);
+  margin-bottom: 0.75rem;
+  background: #0a1020;
+}
+
+.skill-visual-card h3 {
+  font-size: 1.08rem;
+}
+
+.skill-visual-card p {
+  margin-top: 0.4rem;
+}
+
 .contact {
   text-align: center;
 }
@@ -461,12 +472,8 @@ li + li {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .spotlight-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .skills-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+  .skills-visual-grid {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -485,9 +492,12 @@ li + li {
   }
 
   .impact,
-  .spotlight-grid,
   .edu-grid,
-  .skills-grid {
+  .skills-visual-grid {
     grid-template-columns: 1fr;
+  }
+
+  .role-card {
+    padding-left: 1.1rem;
   }
 }
