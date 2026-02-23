@@ -285,6 +285,37 @@ h1 {
   font-size: 0.92rem;
 }
 
+.skills-spotlight {
+  margin-top: 1.7rem;
+}
+
+.spotlight-grid {
+  display: grid;
+  gap: 0.8rem;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.spotlight-card {
+  border: 1px solid var(--surface-border);
+  border-radius: 14px;
+  padding: 0.95rem;
+  background: linear-gradient(170deg, rgba(8, 14, 26, 0.78), rgba(8, 14, 26, 0.54));
+}
+
+:root[data-theme="light"] .spotlight-card {
+  background: linear-gradient(170deg, rgba(255, 255, 255, 0.86), rgba(255, 255, 255, 0.72));
+}
+
+.spotlight-card h3 {
+  font-size: 0.96rem;
+}
+
+.spotlight-card p {
+  margin-top: 0.4rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
 .section {
   margin-top: 2rem;
 }
@@ -430,6 +461,10 @@ li + li {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .spotlight-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .skills-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -450,6 +485,7 @@ li + li {
   }
 
   .impact,
+  .spotlight-grid,
   .edu-grid,
   .skills-grid {
     grid-template-columns: 1fr;
