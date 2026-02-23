@@ -4,11 +4,11 @@
   <rect x="202" y="34" width="155" height="64" rx="12" fill="#132644" stroke="#2DD4BF"/>
   <rect x="381" y="34" width="155" height="64" rx="12" fill="#132644" stroke="#2DD4BF"/>
 
-  <rect x="124" y="146" width="312" height="64" rx="12" fill="#1F2E4D" stroke="#FBBF24"/>
+  <rect x="106" y="142" width="348" height="74" rx="12" fill="#1F2E4D" stroke="#FBBF24"/>
 
-  <path d="M101 98L240 146" stroke="#5EEAD4" stroke-width="4"/>
-  <path d="M279 98L280 146" stroke="#5EEAD4" stroke-width="4"/>
-  <path d="M458 98L320 146" stroke="#5EEAD4" stroke-width="4"/>
+  <path d="M101 98L240 142" stroke="#5EEAD4" stroke-width="4"/>
+  <path d="M279 98L280 142" stroke="#5EEAD4" stroke-width="4"/>
+  <path d="M458 98L320 142" stroke="#5EEAD4" stroke-width="4"/>
 
   <text x="36" y="64" fill="#D9F6FF" font-size="14" font-family="Arial">Distributed</text>
   <text x="36" y="82" fill="#D9F6FF" font-size="14" font-family="Arial">Services</text>
@@ -19,5 +19,6 @@
   <text x="393" y="64" fill="#D9F6FF" font-size="14" font-family="Arial">Resilience +</text>
   <text x="393" y="82" fill="#D9F6FF" font-size="14" font-family="Arial">Observability</text>
 
-  <text x="280" y="184" fill="#FEF3C7" font-size="30" font-family="Arial" font-weight="bold" text-anchor="middle">Reliable Backend Platform</text>
+  <text x="280" y="176" fill="#FEF3C7" font-size="28" font-family="Arial" font-weight="bold" text-anchor="middle">Reliable Backend</text>
+  <text x="280" y="198" fill="#FEF3C7" font-size="28" font-family="Arial" font-weight="bold" text-anchor="middle">Platform</text>
 </svg>

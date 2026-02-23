@@ -7,5 +7,6 @@
   <text x="130" y="125" fill="#CFFAFE" font-size="30" font-family="Arial" font-weight="bold">Java</text>
   <text x="278" y="125" fill="#E9D5FF" font-size="30" font-family="Arial" font-weight="bold">TS/JS</text>
   <text x="444" y="125" fill="#FEF3C7" font-size="30" font-family="Arial" font-weight="bold">SQL</text>
-  <text x="128" y="275" fill="#D1D5DB" font-size="26" font-family="Arial">Typed systems + query-driven data models</text>
+  <text x="132" y="264" fill="#D1D5DB" font-size="20" font-family="Arial">Typed systems and</text>
+  <text x="132" y="288" fill="#D1D5DB" font-size="20" font-family="Arial">query-driven data models</text>
 </svg>
