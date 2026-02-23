@@ -1,0 +1,17 @@
+<svg width="560" height="240" viewBox="0 0 560 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="560" height="240" rx="16" fill="#0E1A30"/>
+  <rect x="24" y="34" width="155" height="64" rx="12" fill="#132644" stroke="#2DD4BF"/>
+  <rect x="202" y="34" width="155" height="64" rx="12" fill="#132644" stroke="#2DD4BF"/>
+  <rect x="381" y="34" width="155" height="64" rx="12" fill="#132644" stroke="#2DD4BF"/>
+  <rect x="170" y="146" width="220" height="64" rx="12" fill="#1F2E4D" stroke="#FBBF24"/>
+  <path d="M101 98L240 146" stroke="#5EEAD4" stroke-width="4"/>
+  <path d="M279 98L280 146" stroke="#5EEAD4" stroke-width="4"/>
+  <path d="M458 98L320 146" stroke="#5EEAD4" stroke-width="4"/>
+  <text x="36" y="64" fill="#D9F6FF" font-size="14" font-family="Arial">Distributed</text>
+  <text x="36" y="82" fill="#D9F6FF" font-size="14" font-family="Arial">Services</text>
+  <text x="214" y="64" fill="#D9F6FF" font-size="14" font-family="Arial">Throughput +</text>
+  <text x="214" y="82" fill="#D9F6FF" font-size="14" font-family="Arial">Low Latency</text>
+  <text x="393" y="64" fill="#D9F6FF" font-size="14" font-family="Arial">Resilience +</text>
+  <text x="393" y="82" fill="#D9F6FF" font-size="14" font-family="Arial">Observability</text>
+  <text x="206" y="183" fill="#FEF3C7" font-size="18" font-family="Arial" font-weight="bold">Reliable Backend Platform</text>
+</svg>
