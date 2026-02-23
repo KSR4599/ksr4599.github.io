@@ -1,0 +1,13 @@
+<svg width="420" height="56" viewBox="0 0 420 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="420" height="56" rx="12" fill="#0E1A30"/>
+  <rect x="10" y="12" width="90" height="32" rx="8" fill="#132644" stroke="#2DD4BF"/>
+  <rect x="164" y="12" width="90" height="32" rx="8" fill="#132644" stroke="#2DD4BF"/>
+  <rect x="318" y="12" width="92" height="32" rx="8" fill="#1F2E4D" stroke="#FBBF24"/>
+  <path d="M104 28H158" stroke="#5EEAD4" stroke-width="3"/>
+  <path d="M154 24L160 28L154 32" stroke="#5EEAD4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M258 28H312" stroke="#5EEAD4" stroke-width="3"/>
+  <path d="M308 24L314 28L308 32" stroke="#5EEAD4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="29" y="33" fill="#D9F6FF" font-size="14" font-family="Arial" font-weight="bold">Intern</text>
+  <text x="190" y="33" fill="#D9F6FF" font-size="14" font-family="Arial" font-weight="bold">SDE-3</text>
+  <text x="325" y="33" fill="#FEF3C7" font-size="12" font-family="Arial" font-weight="bold">Senior SWE</text>
+</svg>

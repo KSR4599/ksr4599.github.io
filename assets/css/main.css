@@ -408,6 +408,27 @@ h1 {
   color: var(--muted);
 }
 
+.role-progress {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.35rem;
+}
+
+.role-progress p {
+  margin: 0;
+  font-size: 0.92rem;
+  text-align: right;
+}
+
+.role-progress img {
+  width: min(100%, 420px);
+  height: auto;
+  border: 1px solid var(--surface-border);
+  border-radius: 10px;
+  background: #0b1326;
+}
+
 ul {
   margin: 0.65rem 0 0;
   padding-left: 1.15rem;
@@ -536,5 +557,14 @@ li + li {
 
   .role-card {
     padding-left: 1.1rem;
+  }
+
+  .role-progress {
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .role-progress p {
+    text-align: left;
   }
 }
