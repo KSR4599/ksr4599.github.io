@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Srikar Reddy Karemma | Senior Software Engineer</title>
+    <meta
+      name="description"
+      content="Portfolio of Srikar Reddy Karemma - Senior Software Engineer specializing in IAM, distributed systems, and cloud-native architecture."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,600&family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body>
+    <div class="page-glow" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#top">SRK</a>
+      <nav>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle color theme">Theme</button>
+    </header>
+
+    <main id="top" class="container">
+      <section class="hero reveal">
+        <p class="eyebrow">Senior Software Engineer</p>
+        <h1>Srikar Reddy Karemma</h1>
+        <p class="hero-subtitle">
+          I design and scale mission-critical identity platforms, secure APIs, and distributed systems that serve
+          millions of users with strict latency and reliability targets.
+        </p>
+        <div class="hero-meta">
+          <span>San Jose, California</span>
+          <span>562-269-9357</span>
+          <a href="mailto:ksreddy4599@gmail.com">ksreddy4599@gmail.com</a>
+        </div>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="pdf/KaremmaResume.pdf" download>Download Resume</a>
+          <a class="btn btn-secondary" href="https://www.linkedin.com/in/srikarreddykaremma/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a class="btn btn-secondary" href="https://github.com/ksr4599" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </section>
+
+      <section class="impact reveal" aria-label="Key impact metrics">
+        <article>
+          <h2>99.999%</h2>
+          <p>Uptime during major Walmart commerce events.</p>
+        </article>
+        <article>
+          <h2>100M+</h2>
+          <p>Monthly login attempts observed for passkey/FIDO2 rollout.</p>
+        </article>
+        <article>
+          <h2>60%</h2>
+          <p>Year-over-year cost reduction on IAM session platform.</p>
+        </article>
+        <article>
+          <h2>3,000+</h2>
+          <p>Datasets made accessible via NASA storage-agnostic APIs.</p>
+        </article>
+      </section>
+
+      <section id="experience" class="section reveal">
+        <div class="section-head">
+          <p class="eyebrow">Work</p>
+          <h2>Experience</h2>
+        </div>
+
+        <article class="card role-card">
+          <div class="role-topline">
+            <h3>Walmart Global Tech</h3>
+            <p>Sunnyvale, California</p>
+          </div>
+          <div class="role-title-row">
+            <p class="role-title">Senior Software Engineer</p>
+            <p class="role-duration">01/2022 - Present (Promoted twice)</p>
+          </div>
+          <p>
+            Senior engineer on Walmart's tier-0 IAM platform handling high-volume IAM, SSO, and MFA requests that
+            underpin authentication and authorization for Walmart.com and global subsidiaries.
+          </p>
+          <ul>
+            <li>
+              Architected high-throughput SSO and federated session services for Walmart Commerce Platform, enabling
+              one-login journeys across web, mobile, and partner channels with sub-150 ms global latency.
+            </li>
+            <li>
+              Re-architected core session platform for multi-tenant IAM: migrated 1.2B+ sessions in 3 days,
+              sustained ~5K TPS, and scaled to 25M+ active sessions and 1.56M session validations per minute.
+            </li>
+            <li>
+              Reduced compute/storage footprint from 480 to 225 pods for a 20K OPM workload, delivering about
+              $920K annual savings and 30-50% API latency improvements.
+            </li>
+            <li>
+              Led end-to-end FIDO2/passkey backend rollout on AKS with Flagger canary strategy, tracking p99 and
+              device-mix regressions across 100M+ monthly logins with zero incidents.
+            </li>
+            <li>
+              Built CoreID hybrid routing layer for ASDA migration, enabling feature-flagged store-by-store cutover
+              for 1,200 stores and 150K associates without POS or workforce access disruption.
+            </li>
+            <li>
+              Strengthened resiliency and observability with fine-grained rate limiting, CPU/memory-driven autoscale,
+              SLO alerting, and Prometheus/Istio/Logstash telemetry for proactive incident prevention.
+            </li>
+          </ul>
+        </article>
+
+        <article class="card role-card">
+          <div class="role-topline">
+            <h3>NASA</h3>
+            <p>Fairfax, Virginia</p>
+          </div>
+          <div class="role-title-row">
+            <p class="role-title">Software Development Engineer</p>
+            <p class="role-duration">08/2020 - 01/2022</p>
+          </div>
+          <p>
+            Developer for NASA's Helio-Physics Application Programmer Interface (HAPI), defining and implementing
+            RESTful and streaming specifications for mission data delivery.
+          </p>
+          <ul>
+            <li>
+              Implemented HAPI-compliant services across required endpoints, transforming mission telemetry into
+              machine-processable JSON/CSV time-series with rich metadata.
+            </li>
+            <li>
+              Designed storage-agnostic data access APIs that abstracted file formats and mission-specific layouts,
+              enabling cross-mission analysis over 3,000+ datasets across 60+ mission groups.
+            </li>
+            <li>
+              Collaborated with heliophysics data-center teams to harden spec and server behavior, improving
+              interoperability while reducing custom ETL and parser work for research workflows.
+            </li>
+          </ul>
+          <p>
+            Project reference:
+            <a href="https://cdaweb.gsfc.nasa.gov/registry/hdp/hapi/" target="_blank" rel="noreferrer"
+              >The HAPI specification</a
+            >
+          </p>
+        </article>
+      </section>
+
+      <section id="education" class="section reveal">
+        <div class="section-head">
+          <p class="eyebrow">Academic</p>
+          <h2>Education</h2>
+        </div>
+        <div class="edu-grid">
+          <article class="card">
+            <h3>George Mason University</h3>
+            <p class="edu-degree">Master of Science in Computer Science</p>
+            <p>Fairfax, Virginia</p>
+            <p>01/2020 - 12/2021</p>
+            <p>GPA: 3.80</p>
+          </article>
+          <article class="card">
+            <h3>Jawaharlal Nehru Technological University</h3>
+            <p class="edu-degree">Bachelor of Engineering in Computer Science</p>
+            <p>Hyderabad, India</p>
+            <p>06/2015 - 05/2019</p>
+            <p>GPA: 3.70</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="skills" class="section reveal">
+        <div class="section-head">
+          <p class="eyebrow">Toolset</p>
+          <h2>Skills</h2>
+        </div>
+        <div class="skills-grid">
+          <article class="card">
+            <h3>Languages</h3>
+            <p>Java (primary), JavaScript, TypeScript, SQL, C</p>
+          </article>
+          <article class="card">
+            <h3>Backend</h3>
+            <p>Spring Boot, Spring, REST APIs, Microservices, Kafka, Node.js, Express.js</p>
+          </article>
+          <article class="card">
+            <h3>Data</h3>
+            <p>Oracle, SQL Server, PostgreSQL, MongoDB, Redis, Cosmos DB</p>
+          </article>
+          <article class="card">
+            <h3>Cloud and Infra</h3>
+            <p>AWS, GCP, Azure, Docker, Kubernetes (AKS)</p>
+          </article>
+          <article class="card">
+            <h3>DevOps and Observability</h3>
+            <p>Git, Jenkins, Maven, Gradle, Nexus, Artifactory, Vault, Akeyless, Prometheus, Grafana, Kibana, Splunk, Dynatrace</p>
+          </article>
+          <article class="card">
+            <h3>Frontend</h3>
+            <p>React.js, Angular.js (working knowledge)</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact reveal">
+        <h2>Let's Build Reliable Systems at Scale</h2>
+        <p>
+          Open to conversations about platform architecture, IAM modernization, and high-traffic distributed systems.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="mailto:ksreddy4599@gmail.com">Email Me</a>
+          <a class="btn btn-secondary" href="https://ksr4599.github.io" target="_blank" rel="noreferrer">Website</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Srikar Reddy Karemma</p>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
