@@ -18,35 +18,49 @@
   </head>
   <body>
     <div class="page-glow" aria-hidden="true"></div>
+    <div id="scroll-progress" class="scroll-progress" aria-hidden="true"></div>
 
     <header class="site-header">
       <a class="brand" href="#top">SRK</a>
       <nav>
-        <a href="#experience">Experience</a>
-        <a href="#education">Education</a>
-        <a href="#skills">Skills</a>
-        <a href="#contact">Contact</a>
+        <a class="nav-link" href="#experience">Experience</a>
+        <a class="nav-link" href="#education">Education</a>
+        <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link" href="#contact">Contact</a>
       </nav>
       <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle color theme">Theme</button>
     </header>
 
     <main id="top" class="container">
       <section class="hero reveal">
-        <p class="eyebrow">Senior Software Engineer</p>
-        <h1>Srikar Reddy Karemma</h1>
-        <p class="hero-subtitle">
-          I design and scale mission-critical identity platforms, secure APIs, and distributed systems that serve
-          millions of users with strict latency and reliability targets.
-        </p>
-        <div class="hero-meta">
-          <span>San Jose, California</span>
-          <span>562-269-9357</span>
-          <a href="mailto:ksreddy4599@gmail.com">ksreddy4599@gmail.com</a>
-        </div>
-        <div class="hero-actions">
-          <a class="btn btn-primary" href="pdf/KaremmaResume.pdf" download>Download Resume</a>
-          <a class="btn btn-secondary" href="https://www.linkedin.com/in/srikarreddykaremma/" target="_blank" rel="noreferrer">LinkedIn</a>
-          <a class="btn btn-secondary" href="https://github.com/ksr4599" target="_blank" rel="noreferrer">GitHub</a>
+        <div class="hero-grid">
+          <div>
+            <p class="eyebrow">Senior Software Engineer</p>
+            <h1>Srikar Reddy Karemma</h1>
+            <p class="hero-subtitle">
+              I design and scale mission-critical identity platforms, secure APIs, and distributed systems that serve
+              millions of users with strict latency and reliability targets.
+            </p>
+            <div class="hero-meta">
+              <span>San Jose, California</span>
+              <span>562-269-9357</span>
+              <a href="mailto:ksreddy4599@gmail.com">ksreddy4599@gmail.com</a>
+            </div>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="pdf/KaremmaResume.pdf" download>Download Resume</a>
+              <a class="btn btn-secondary" href="https://www.linkedin.com/in/srikarreddykaremma/" target="_blank" rel="noreferrer">LinkedIn</a>
+              <a class="btn btn-secondary" href="https://github.com/ksr4599" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+          </div>
+          <aside class="focus-panel" aria-label="Current focus">
+            <p class="eyebrow">Current Focus</p>
+            <h2>Identity, reliability, and scale.</h2>
+            <ul class="focus-list">
+              <li>Tier-0 IAM architecture for global commerce traffic</li>
+              <li>Passkeys and FIDO2 adoption at production scale</li>
+              <li>Latency-sensitive platform modernization and resilience</li>
+            </ul>
+          </aside>
         </div>
       </section>
 
@@ -83,6 +97,13 @@
           <div class="role-title-row">
             <p class="role-title">Senior Software Engineer</p>
             <p class="role-duration">01/2022 - Present (Promoted twice)</p>
+          </div>
+          <div class="tag-row">
+            <span>IAM</span>
+            <span>SSO</span>
+            <span>FIDO2</span>
+            <span>Kubernetes</span>
+            <span>Platform Reliability</span>
           </div>
           <p>
             Senior engineer on Walmart's tier-0 IAM platform handling high-volume IAM, SSO, and MFA requests that
@@ -124,6 +145,12 @@
           <div class="role-title-row">
             <p class="role-title">Software Development Engineer</p>
             <p class="role-duration">08/2020 - 01/2022</p>
+          </div>
+          <div class="tag-row">
+            <span>REST APIs</span>
+            <span>HAPI</span>
+            <span>Time-series Data</span>
+            <span>Data Platform</span>
           </div>
           <p>
             Developer for NASA's Helio-Physics Application Programmer Interface (HAPI), defining and implementing

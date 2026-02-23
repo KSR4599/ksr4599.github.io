@@ -42,6 +42,16 @@ body {
   line-height: 1.5;
 }
 
+.scroll-progress {
+  position: fixed;
+  inset: 0 auto auto 0;
+  height: 3px;
+  width: 0;
+  z-index: 40;
+  background: linear-gradient(90deg, var(--accent), var(--accent-2));
+  box-shadow: 0 0 18px rgba(94, 234, 212, 0.6);
+}
+
 .page-glow {
   position: fixed;
   inset: 0;
@@ -93,6 +103,15 @@ nav a {
   font-size: 0.95rem;
   text-decoration: none;
   color: var(--muted);
+  border-bottom: 1px solid transparent;
+  padding-bottom: 0.18rem;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+nav a.active,
+nav a:hover {
+  color: var(--text);
+  border-bottom-color: var(--accent);
 }
 
 .theme-toggle {
@@ -117,6 +136,26 @@ nav a {
   border: 1px solid var(--surface-border);
   border-radius: 22px;
   box-shadow: var(--shadow);
+  position: relative;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  right: -8%;
+  top: -20%;
+  width: 330px;
+  height: 330px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(94, 234, 212, 0.2), transparent 65%);
+}
+
+.hero-grid {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1.3fr 0.9fr;
+  gap: 1rem;
 }
 
 .eyebrow {
@@ -139,6 +178,32 @@ h1 {
   font-family: "IBM Plex Serif", serif;
   font-size: clamp(2rem, 6vw, 3.8rem);
   margin-top: 0.5rem;
+}
+
+.focus-panel h2 {
+  margin-top: 0.35rem;
+  font-family: "IBM Plex Serif", serif;
+  font-size: clamp(1.35rem, 2.2vw, 1.8rem);
+}
+
+.focus-panel {
+  border: 1px solid var(--surface-border);
+  border-radius: 16px;
+  padding: 1rem;
+  background: rgba(7, 12, 24, 0.42);
+}
+
+:root[data-theme="light"] .focus-panel {
+  background: rgba(255, 255, 255, 0.78);
+}
+
+.focus-list {
+  margin: 0.8rem 0 0;
+  padding-left: 1rem;
+}
+
+.focus-list li {
+  color: var(--muted);
 }
 
 .hero-subtitle {
@@ -239,6 +304,12 @@ h1 {
   padding: 1.1rem;
   background: var(--surface);
   box-shadow: var(--shadow);
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(94, 234, 212, 0.45);
 }
 
 .role-card + .role-card {
@@ -265,6 +336,23 @@ h1 {
 
 .role-title {
   font-weight: 700;
+}
+
+.tag-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin: 0.35rem 0 0.25rem;
+}
+
+.tag-row span {
+  font-size: 0.75rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  padding: 0.2rem 0.46rem;
+  border-radius: 999px;
+  border: 1px solid var(--surface-border);
+  color: var(--muted);
 }
 
 .role-duration,
@@ -334,6 +422,10 @@ li + li {
 }
 
 @media (max-width: 980px) {
+  .hero-grid {
+    grid-template-columns: 1fr;
+  }
+
   .impact {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -351,6 +443,10 @@ li + li {
 
   nav {
     width: 100%;
+  }
+
+  nav a {
+    font-size: 0.9rem;
   }
 
   .impact,
