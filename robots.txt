@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 
+Sitemap: https://ksr4599.github.io/sitemap-main.xml
 Sitemap: https://ksr4599.github.io/sitemap.xml
