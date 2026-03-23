@@ -225,25 +225,62 @@ nav a:hover {
 .hero-grid {
   position: relative;
   display: grid;
-  grid-template-columns: 1.3fr 0.9fr;
+  grid-template-columns: minmax(0, 1.12fr) minmax(320px, 0.88fr);
+  gap: 1.25rem;
+  align-items: start;
+}
+
+.hero-copy {
+  padding-right: 0.4rem;
+}
+
+.hero-side {
+  display: grid;
   gap: 1rem;
 }
 
-.profile-chip {
-  width: 108px;
-  height: 108px;
-  border-radius: 18px;
-  padding: 4px;
-  margin-bottom: 0.7rem;
-  background: linear-gradient(140deg, var(--accent), var(--accent-2));
+.hero-portrait {
+  position: relative;
+  margin: 0;
+  min-height: 440px;
+  padding: 6px;
+  border-radius: 28px;
+  overflow: hidden;
+  background:
+    linear-gradient(145deg, rgba(94, 234, 212, 0.96), rgba(251, 191, 36, 0.96)),
+    linear-gradient(180deg, rgba(15, 23, 42, 0.18), rgba(15, 23, 42, 0));
+  box-shadow: 0 24px 54px rgba(2, 6, 23, 0.34);
 }
 
-.profile-chip img {
+.hero-portrait img {
   width: 100%;
   height: 100%;
-  border-radius: 14px;
+  min-height: 428px;
+  border-radius: 22px;
   object-fit: cover;
+  object-position: 72% center;
   display: block;
+}
+
+.hero-portrait figcaption {
+  position: absolute;
+  left: 1.1rem;
+  right: 1.1rem;
+  bottom: 1.1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.55rem;
+  padding: 0.78rem 0.95rem;
+  border-radius: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: linear-gradient(180deg, rgba(6, 10, 20, 0.82), rgba(6, 10, 20, 0.56));
+  backdrop-filter: blur(10px);
+  color: #f8fbff;
+  font-size: 0.82rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  z-index: 1;
 }
 
 .eyebrow {
@@ -650,6 +687,18 @@ li + li {
     grid-template-columns: 1fr;
   }
 
+  .hero-side {
+    order: -1;
+  }
+
+  .hero-portrait {
+    min-height: 390px;
+  }
+
+  .hero-portrait img {
+    min-height: 378px;
+  }
+
   .impact {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -684,9 +733,21 @@ li + li {
     padding-left: 1.1rem;
   }
 
-  .profile-chip {
-    width: 92px;
-    height: 92px;
+  .hero-portrait {
+    min-height: 320px;
+  }
+
+  .hero-portrait img {
+    min-height: 308px;
+    object-position: 70% center;
+  }
+
+  .hero-portrait figcaption {
+    left: 0.9rem;
+    right: 0.9rem;
+    bottom: 0.9rem;
+    padding: 0.7rem 0.82rem;
+    font-size: 0.74rem;
   }
 
   .role-progress {
